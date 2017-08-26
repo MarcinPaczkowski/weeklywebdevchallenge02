@@ -1,0 +1,41 @@
+.about-us {
+    background-color:  #00c4c4;    
+    padding: 40px 70px;
+    height: 700px;
+    width: 100%;
+
+    &-image {
+        background: url('../img/strawberries.png') no-repeat left;
+        height: 650px;
+        width: 50%;
+        float: left;
+    }
+
+    &-content {
+        padding: 160px 30px;
+        width: 50%;
+        height: 100%;
+        float: right;
+        
+        &-header {
+            font-family: $mainFont;
+            color: $white;
+            font-size: 90px;
+            font-weight: 700;
+            line-height: 27px;
+            text-align: left;
+            padding-bottom: 80px;
+        }
+
+        &-text {
+            font-family: $mainFont;
+            color:  $white;
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 27px;
+            text-align: left;
+        }
+    }
+
+
+}
